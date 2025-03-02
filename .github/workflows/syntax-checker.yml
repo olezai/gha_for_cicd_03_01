@@ -9,4 +9,6 @@ jobs:
 
     steps:
     - name: Check out the code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
+    - name: Check python syntax
+      uses: cclauss/Find-Python-syntax-errors-action@v0.2.0
